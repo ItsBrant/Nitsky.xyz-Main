@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic);
+
+body {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    color: white;
+    text-shadow: 3px 3px #262626;
+}
+
+
+.logo {
+    position:absolute;
+    left:50px;
+    top:20px;
+    width: 222px;
+    height: 82px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* Rectangle 1 */
+
+.bgbar {
+padding: 1em;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+width: 505px;
+height: 25px;
+
+background: rgba(25, 14, 44, 0.8);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 2px;
+}
+
+.bgbar p {
+    display: inline;
+    line-height: 15px;
+    padding-top: 3px;
+}
+
+.bgbar p.home {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+opacity: 1;
+padding-top: 3px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+
+.bgbar p.instagram {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 10px;
+padding-left: 10px;
+padding-top: 15px;
+
+color: #FFFFFF;
+}
+
+.bgbar p.youtube {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+    color: #FFFFFF;
+    }
+
+.bgbar p.discord {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+        
+    color: #FFFFFF;
+    }
+
+.bgbar p.music {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+        
+    color: #FFFFFF;
+    }
+
+.bgbar p.contact {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+        
+    color: #FFFFFF;
+    }
+
+.bgbar p.images {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin: 0;
+        
+    color: #FFFFFF;
+    }
+a {
+    text-decoration: none;
+    color: white;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+a:hover {
+    color: #B9A3E3;
+}
+
+a.blog {
+    font-weight: bold;
+}
+
+i {
+    padding-right: 50px;
+    padding-left: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
